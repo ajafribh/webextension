@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "BasketHunt Lock",
+  "description": "Browser Lock developed by BasketHunt",
+  "version": "1",
+  "minimum_chrome_version": "26.0.1428",
+  "author": "BasketHunt Pvt Ltd",
+  "short_name": "Chrome Lock",
+  "icons": {
+    "16": "icon16.png",   
+    "48": "icon48.png",   
+    "128": "icon128.png"  
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": ["tabs"]
+}
